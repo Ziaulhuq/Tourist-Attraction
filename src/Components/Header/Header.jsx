@@ -11,16 +11,26 @@ const Header = () => {
       >
         Tourist Attraction
       </motion.h1>
-      <p className="text-center mt-3 text-xs opacity-50">
+      <motion.p
+        className="text-center mt-3 text-xs opacity-50"
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 1, duration: 2 }}
+      >
         loremId laborum veniam amet nostrud ea officia enim nisi incididunt
         anim.
-      </p>
-      <p className="text-center mt-3 text-sm opacity-95">
+      </motion.p>
+      <motion.p
+        className="text-center mt-3 text-sm opacity-95"
+        initial={{ opacity: 0, x: -100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ delay: 1, duration: 2 }}
+      >
         lorem Consequat cillum id consectetur aliquip officia id elit aliquip
         qui enim irure anim. Non anim culpa ex amet excepteur ea. Qui pariatur
         proident ex ea commodo eiusmod aliquip incididunt non ullamco elit ipsum
         sint officia.
-      </p>
+      </motion.p>
     </motion.div>
   );
 };
