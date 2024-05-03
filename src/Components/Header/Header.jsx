@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <motion.div>
       <motion.h1
-        className="text-5xl font-bold bg-gradient-to-r from-lime-900 via-green-500 to-lime-100  text-transparent bg-clip-text drop-shadow-md flex content-center justify-center"
+        className="text-5xl font-bold bg-gradient-to-r from-lime-900 via-green-500 to-lime-100  text-transparent bg-clip-text drop-shadow-md flex content-center justify-center font-sans"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 5 }}
@@ -12,7 +12,7 @@ const Header = () => {
         Tourist Attraction
       </motion.h1>
       <motion.p
-        className="text-center mt-3 text-xs opacity-50"
+        className="text-center mt-3 text-xs opacity-50 font-serif"
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 2 }}
@@ -21,7 +21,7 @@ const Header = () => {
         anim.
       </motion.p>
       <motion.p
-        className="text-center mt-3 text-sm opacity-95"
+        className="text-center mt-3 text-sm opacity-95 mb-4 font-serif"
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ delay: 1, duration: 2 }}
