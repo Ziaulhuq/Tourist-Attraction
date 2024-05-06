@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <motion.div>
       <motion.h1
-        className="text-5xl font-bold bg-gradient-to-r from-lime-900 via-green-500 to-lime-100  text-transparent bg-clip-text drop-shadow-md flex content-center justify-center font-sans"
+        className="text-5xl font-bold bg-gradient-to-r from-lime-900 via-green-500 to-lime-100  text-transparent bg-clip-text drop-shadow-md flex content-center justify-center font-sans mt-24"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 5 }}

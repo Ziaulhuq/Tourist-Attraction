@@ -9,10 +9,11 @@
 }
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 1.3rem;
   box-sizing: border-box;
-  padding: 1.5rem;
   font-family: sans-serif;
+  width: 100%;
+  overflow-x: hidden;
 }
 html {
   margin: 0;
